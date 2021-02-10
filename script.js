@@ -44,3 +44,7 @@ let a = false;
 let b = false;
 let c = (a||b);
 console.log(c);
+
+
+let f = true;
+
