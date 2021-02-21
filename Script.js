@@ -21,6 +21,6 @@ appData.expenses [c] = d;
 oneDayBudget = (money - b - d)/30;
 
 var x = oneDayBudget;
-var y = Math.round(oneDayBudget * 10) / 10; // Результат равен 7.7.
+var y = Math.round(oneDayBudget * 10) / 10; // Округление
 alert ('Ваш дневной бюджет составляет - ' + (y));
 
